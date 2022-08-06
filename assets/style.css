@@ -5,8 +5,9 @@ html, body
 
 
 #name {
-    color: #0cc1ce;
+    color: #21b2bdc9;
     font-family: Arial, Helvetica, serif;
+    text-shadow: 1px 1px rgba(162, 208, 238, 0.692);
 }
 
 #tech {
@@ -29,6 +30,17 @@ html, body
     
 }
 
+
+
+
+
+ #pro {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgba(37, 34, 34, 0.795);
+    text-shadow: 1px 1px rgba(95, 158, 160, 0.274);
+}
+
 body {
     background-color: #f1eeeea6;
 
@@ -36,11 +48,14 @@ body {
 
 img {
     height: 200px;
-    width: 700px;
+    min-width: 100%;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    border-bottom: 0px;
 }
 
 .heading {
-    color: #6884c4;
+    color: #6884c4ce;
     font-family: cursive;
     font-style: oblique;
 }
@@ -51,7 +66,7 @@ img {
 }
 
 #contact {
-    color: blue;
+    color: rgba(28, 35, 129, 0.623);
     display:flex;
     align-items: flex-end;
     justify-content: space-evenly;
@@ -59,6 +74,16 @@ img {
     flex-wrap: wrap;
     align-content: stretch;
     margin-left: 130px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    text-shadow: 1px 1px #01131411;
+
+}
+
+#fyi {
+    
+    text-align: center;
+    
 }
 
 

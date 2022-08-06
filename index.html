@@ -10,29 +10,66 @@
 
 <img src="assets/images/autumn.jpg" alt="Cool Background">
 
+<!--Navigation Bar-->
+<style>
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+    }
+    
+    li {
+      float: right;
+    }
+    
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    
+    li a:hover:not(.active) {
+      background-color: #111;
+    }
+    
+    .active {
+      background-color: #04AA6D;
+    }
+    </style>
+    </head>
+    <body>
+    
+    <ul>
+      <li><a href="#home">Resume</a></li>
+      <li><a href="#news">Contact Me</a></li>
+      <li style="floar:right"><a class="inactive" href="#contact">Work</a></li>
+      <li style="float:right"><a class="inactive" href="#about">About Me</a></li>
+    </ul>
+<!--I based my navbar off of the horizontal nav bar example given by  W3 schools.
+Credit to https://www.w3schools.com/css/css_navbar_horizontal.asp-->
 <body>
 
 
->
+
 
   <header>
     <h1 id="name">Will Vining</h1>
 
+    <!--Not formatting correctly
     <h2 id="tech">Tech Professional</h2>
-    
-    <Nav class="nav">
-        <p>About Me</p>
-        <p>Work</p>
-        <p>Contact Me</p>
-        <p>Resume</p>
-    </Nav>
+    -->
+   
 
   </header>
 
   <main>
 
 
-    <section>
+    <section id = "about-me">
         <h3 class="heading" >About Me</h3>
         <P>My name is Will and I love tech and learning. I was born in 
             Albuquerque, New Mexico and went to college in Colorado. I love to 

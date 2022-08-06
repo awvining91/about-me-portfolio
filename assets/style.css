@@ -1,5 +1,11 @@
+html, body
+{
+    height: 100%;
+}
+
+
 #name {
-    color: blue;
+    color: #0cc1ce;
     font-family: Arial, Helvetica, serif;
 }
 
@@ -13,8 +19,12 @@
 .nav {
     color:blue;
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: stretch;
+    margin-left: 200px;
 
     
 }
@@ -24,6 +34,42 @@ body {
 
 }
 
+img {
+    height: 200px;
+    width: 700px;
+}
+
 .heading {
-    
+    color: #6884c4;
+    font-family: cursive;
+    font-style: oblique;
+}
+
+#contact {
+    color: blue;
+    display:flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: stretch;
+    margin-left: 130px;
+}
+
+
+@media screen and (min-width: 768px) {
+    /* for tablets responsive design */
+    .card-column {
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+
+}
+
+/* responsive design for larger screens */
+@media screen and (min-width: 992px) {
+    header {
+      width: 75%;
+    }
+
 }

@@ -62,8 +62,8 @@ body {
 
 
 #horiseon {
-    height: 200px;
-    width: 200px;
+    height: 300px;
+    width: 300px;
     border-radius: 50px;
 }
 
@@ -126,7 +126,9 @@ body {
     
 }
 
-
+@media only screen and (max-width: 600px) {
+    
+}
 
 
 @media screen and (min-width: 768px) {

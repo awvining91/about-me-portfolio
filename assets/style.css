@@ -1,3 +1,7 @@
+/*Welcome to my portfolio! I hope you like it! :) */
+
+
+
 html, body
 {
     height: 100%;
@@ -31,7 +35,10 @@ html, body
 }
 
 
+.background {
+    
 
+}
 
 
  #pro {
@@ -65,29 +72,82 @@ body {
     height: 300px;
     width: 300px;
     border-radius: 50px;
+    top:-50px; 
+    left:-35px; 
+    display:block; 
+    z-index:999; 
+    cursor: pointer; 
+    -webkit-transition-property: all; 
+    -webkit-transition-duration: 0.3s; 
+    -webkit-transition-timing-function: ease; 
 }
 
-#project-2 {
+#horiseon:hover {
+    transform: scale(1.25);
+}
+
+/* I used the example here for reference. Credit to this website
+ https://success.appen.com/hc/en-us/articles/202703155-CSS-Guide-to-Enlarge-Images-on-Hover
+*/
+
+ #project-2 {
     height: 200px;
     width: 200px;
     border-radius: 50px;
+    top:-50px; 
+    left:-35px; 
+    display:block; 
+    z-index:999; 
+    cursor: pointer; 
+    -webkit-transition-property: all; 
+    -webkit-transition-duration: 0.3s; 
+    -webkit-transition-timing-function: ease; 
 
 }
 
+#project-2:hover {
+    transform: scale(1.25);
+}
 
 #project-3 {
     height: 200px;
     width: 200px;
     border-radius: 50px;
+    top:-50px; 
+    left:-35px; 
+    display:block; 
+    z-index:999; 
+    cursor: pointer; 
+    -webkit-transition-property: all; 
+    -webkit-transition-duration: 0.3s; 
+    -webkit-transition-timing-function: ease; 
 
 }
+
+#project-3:hover {
+    transform: scale(1.25);
+}
+
 
 #project-4 {
     height: 200px;
     width: 200px;
     border-radius: 50px;
+    top:-50px; 
+    left:-35px; 
+    display:block; 
+    z-index:999; 
+    cursor: pointer; 
+    -webkit-transition-property: all; 
+    -webkit-transition-duration: 0.3s; 
+    -webkit-transition-timing-function: ease; 
 
 }
+
+#project-4:hover {
+    transform: scale(1.25);
+}
+
 
 .heading {
     color: #6884c4ce;
@@ -98,6 +158,9 @@ body {
 #about-me {
 
     position: block;
+    color: rgba(16, 16, 61, 0.849);
+    font-family: "Arial", san-serif;
+    font-weight: 100;
 }
 
 #contact-me {
@@ -115,9 +178,12 @@ body {
 
 }
 
+
+
 #fyi {
     
     text-align: center;
+    
     
 }
 
@@ -127,7 +193,7 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
-    
+
 }
 
 

@@ -58,6 +58,37 @@ body {
     border-radius: 50%;
 
 }
+
+
+
+#horiseon {
+    height: 200px;
+    width: 200px;
+    border-radius: 50px;
+}
+
+#project-2 {
+    height: 200px;
+    width: 200px;
+    border-radius: 50px;
+
+}
+
+
+#project-3 {
+    height: 200px;
+    width: 200px;
+    border-radius: 50px;
+
+}
+
+#project-4 {
+    height: 200px;
+    width: 200px;
+    border-radius: 50px;
+
+}
+
 .heading {
     color: #6884c4ce;
     font-family: cursive;
@@ -90,6 +121,13 @@ body {
     
 }
 
+/*Mobile First Responsive Design*/
+@media screen and (min-width: 768px) {
+    
+}
+
+
+
 
 @media screen and (min-width: 768px) {
     /* for tablets responsive design */
@@ -107,3 +145,5 @@ body {
     }
 
 }
+
+/* Responsive design templates used from Module 2 Mini-project */

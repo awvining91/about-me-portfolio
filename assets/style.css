@@ -71,6 +71,7 @@ body {
     width: 50%;
     color:rgba(87, 87, 180, 0.404);
     font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 20px;
 
 }
 
@@ -252,6 +253,32 @@ body {
 
 }
 
+
+@media only screen and (max-width: 600px) {
+    .row {
+        display:inline-block;
+
+
+    }
+
+
+    #contact-me {
+        display: inline-block;
+        color: rgba(28, 35, 129, 0.623);
+        align-items: flex-end;
+        justify-content: space-evenly;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: stretch;
+        margin-left: 130px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: oblique;
+        text-shadow: 1px 1px #01131411;
+
+
+
+    }
+}
 
 @media screen and (min-width: 768px) {
     /* for tablets responsive design */

@@ -66,6 +66,19 @@ body {
 
 }
 
+#work {
+    margin: auto;
+    width: 50%;
+    color:rgba(87, 87, 180, 0.404);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.picture-font {
+    color:rgba(87, 87, 180, 0.404);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
 
 
 #horiseon {
@@ -166,6 +179,27 @@ body {
 #project-4:hover {
     transform: scale(1.25);
 }
+
+
+#project-5 {
+    height: 200px;
+    width: 200px;
+    border-radius: 50px;
+    top:-50px; 
+    left:-35px; 
+    display:block; 
+    z-index:999; 
+    cursor: pointer; 
+    -webkit-transition-property: all; 
+    -webkit-transition-duration: 0.3s; 
+    -webkit-transition-timing-function: ease; 
+
+}
+
+#project-5:hover {
+    transform: scale(1.25);
+}
+
 
 
 .heading {

@@ -19,7 +19,10 @@ This assignment was fun but very difficult for me at first.
 I will continue to add to my portfolio as the class goes on and even after the bootcamp ends to showcase my skills.
 
 ##screenshot
-![image](https://user-images.githubusercontent.com/51838530/182743042-6231e16b-2f05-4c72-a7b0-ddb4840200d5.png)
+
+
+
+![image](https://user-images.githubusercontent.com/51838530/184023689-79b977f9-3162-471e-8370-3755a6defaa5.png)
 
 ##Deployment Link
 https://awvining91.github.io/about-me-portfolio/
